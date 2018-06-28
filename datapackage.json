@@ -1,0 +1,633 @@
+{
+  "name":"diagnosed-diabetes-prevalence-2004-2013",
+  "title":"Diagnosed Diabetes Prevalence 2004-2013",
+  "description":"This dataset contains number and percentage of diabetes patients in the US during 2013 grouped by ZIP code. The prevalence and incidence of diabetes have increased in the United States in recent decades, no studies have systematically examined long-term, national trends in the prevalence and incidence of diagnosed diabetes. The prevalence of diabetes increased substantially between 2000 and 2007, mainly because there are more patients with a new diagnosis each year than those who die. The increase observed by 2007 almost reached the World Health Organization prediction for 2030.",
+  "documentation":"Better local estimates of diabetes and obesity prevalence might influence public health efforts in various ways. First, awareness of the size and scope of the problems is important for local policymakers to identify the necessary community and clinical services to prevent and control the conditions. For example, lifestyle programs for diabetes prevention and community support groups for diabetes self-management have been shown effective when they are linked to a referring clinical center. Second, population-targeted interventions (e.g., changes in health-care access, preventive care, food taxation, or food labeling) might affect specific areas, populations segments, or high-risk populations in ways that are not detectable via broad, population-based surveys. More sensitive local area surveillance can provide a better means of tracking such effects.(from MMWR Estimated County-Level Prevalence of Diabetes and Obesity --- United States, 2007)",
+  "date_created":"2012-01-31",
+  "last_updated":"2016-01-26",
+  "version":"2016-01-26",
+  "update_frequency":"Annual",
+  "temporal_coverage":"2004 to 2013",
+  "spatial_coverage":"United States",
+  "license":"John Snow Labs Standard License",
+  "sources":[
+    {
+      "name":"John Snow Labs"
+    },
+    {
+      "name":"Centers for Disease Control and Prevention"
+    }
+  ],
+  "contributors":[
+    {
+      "name":"John Snow Labs",
+      "email":"support@JohnSnowLabs.com",
+      "uri":"http://www.JohnSnowLabs.com",
+      "role":"author"
+    }
+  ],
+  "source_license_requirements":"N/A",
+  "citation":"N/A",
+  "keywords":[
+    "Diabetes",
+    "ZIP Code",
+    "Number of Diabetes Patients",
+    "Percentage of Diabetes Patients",
+    "Diabetes Patients",
+    "Diabetes Patients in United States",
+    "Diabetes Prevalence",
+    "Estimates of Diabetes"
+  ],
+  "other_titles":[
+    "Diagnosed Diabetes Prevalence",
+    "State Wise Diagnosed Diabetic Patients",
+    "Total Percentage of Diabetic Patients"
+  ],
+  "resources":[
+    {
+      "path":"data.csv",
+      "name":"diagnosed-diabetes-prevalence-2004-2013-csv",
+      "format":"csv",
+      "mediatype":"text/csv",
+      "schema":{
+        "fields":[
+          {
+            "name":"State",
+            "description":"Name of a State.",
+            "type":"string"
+          },
+          {
+            "name":"FIPS_Code",
+            "description":"The FIPS county code is a five-digit Federal Information Processing Standard (FIPS) code (FIPS 6-4) which uniquely identifies counties and county equivalents in the United States, certain U.S. possessions, and certain freely associated states.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"County",
+            "description":"A county is a geographical region of a country used for administrative or other purposes.",
+            "type":"string"
+          },
+          {
+            "name":"Number_2004",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2004",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2004",
+            "description":"Lower Confidence Limit",
+            "type":"number"
+          },
+          {
+            "name":"Upper_Confidence_Limit_2004",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2004",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2004",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2004",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2005",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2005",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2005",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2005",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2005",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2005",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2005",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2006",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2006",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2006",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2006",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2006",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2006",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2006",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2007",
+            "description":"Total Number of Diabetic patients.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Percent_2007",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2007",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2007",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2007",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2007",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2007",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2008",
+            "description":"Total Number of Diabetic patients.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Percent_2008",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2008",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2008",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2008",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2008",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2008",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2009",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2009",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2009",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2009",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2009",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2009",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2009",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2010",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2010",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2010",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2010",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2010",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2010",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2010",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2011",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2011",
+            "description":"Total percentage of Diabetic patients.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2011",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2011",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2011",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2011",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2011",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2012",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Percent_2012",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2012",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2012",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2012",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2012",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2012",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Number_2013",
+            "description":"Total Number of Diabetic patients.",
+            "type":"integer",
+            "constraints":{
+              "level":"Nominal"
+            }
+          },
+          {
+            "name":"Percent_2013",
+            "description":"Total percentage of Diabetic patients in %.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Lower_Confidence_Limit_2013",
+            "description":"Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Upper_Confidence_Limit_2013",
+            "description":"Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Percent_2013",
+            "description":"Age Adjusted Percent",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Lower_Confidence_Limit_2013",
+            "description":"Age Adjusted Lower Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Age_Adjusted_Upper_Confidence_Limit_2013",
+            "description":"Age Adjusted Upper Confidence Limit",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
