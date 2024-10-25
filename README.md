@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/diagnosed-diabetes-prevalence"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/diagnosed-diabetes-prevalence"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 This dataset contains number and percentage of diabetes patients in the US during 2013 grouped by ZIP code. The prevalence and incidence of diabetes have increased in the United States in recent decades, no studies have systematically examined long-term, national trends in the prevalence and incidence of diagnosed diabetes. The prevalence of diabetes increased substantially between 2000 and 2007, mainly because there are more patients with a new diagnosis each year than those who die. The increase observed by 2007 almost reached the World Health Organization prediction for 2030.
 
